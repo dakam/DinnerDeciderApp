@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Dinner Decider</string>
-    <string name="add_food_tooltip">Add new food</string>
+    <string name="add_food_tooltip">add new food</string>
     <string name="btn_txt_addfood">ADD FOOD</string>
     <string name="btn_txt_decide">DECIDE</string>
+    <string name="txt_img_desc">Food Looks</string>
 </resources>

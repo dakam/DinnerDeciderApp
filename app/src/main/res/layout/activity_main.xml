@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,6 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/view_margin"
         android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/txt_img_desc"
         android:src="@drawable/dd_logo">
     </ImageView>
 
@@ -25,15 +25,15 @@
         android:layout_gravity="center_horizontal"
         android:text=""
          />
-    
+
     <EditText
         android:id="@+id/txt_addfood"
         android:layout_width="@dimen/input_width"
         android:layout_height="@dimen/input_height"
         android:textSize="@dimen/text_size"
-        android:tooltipText="@string/add_food_tooltip"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/large_margin">
+        android:layout_marginTop="@dimen/large_margin"
+        android:hint="@string/add_food_tooltip">
     </EditText>
     <Button
         android:id="@+id/btn_addfood"

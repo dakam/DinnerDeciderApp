@@ -2,7 +2,7 @@
 <resources>
     <dimen name="view_margin">20dp</dimen>
     <dimen name="large_margin">120dp</dimen>
-    <dimen name="text_size">22dp</dimen>
+    <dimen name="text_size">22sp</dimen>
     <dimen name="input_height">55dp</dimen>
     <dimen name="input_width">200dp</dimen>
     <dimen name="btn_height">45dp</dimen>
